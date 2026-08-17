@@ -6,13 +6,24 @@ lauffähig direkt über GitHub Pages.
 
 ## Struktur
 
+Jede Unterseite liegt in einem eigenen Ordner als `index.html`, damit die
+URLs ohne `.html`-Endung funktionieren (z. B. `parti-scouts.de/about/` statt
+`parti-scouts.de/about.html`). Die alten `*.html`-Dateien im Root bleiben als
+Weiterleitungen bestehen, damit bestehende Links/Lesezeichen nicht brechen.
+
 ```
-index.html        Startseite
-about.html         Über das Projekt, Albatros sozial & Stiftung DFK
-workshops.html     Workshops, inkl. Beispiel „Die Farbe der Jacke“
-activities.html    Aktivitäten / gemeinsame Freizeitgestaltung
-team.html          Team (4 Platzhalter-Profile — bitte ersetzen)
-contact.html       Kontakt & Nachrichtenformular
+index.html              Startseite (bereits ohne Endung unter "/" erreichbar)
+about/index.html         Über das Projekt, Albatros sozial & Stiftung DFK
+workshops/index.html     Workshops, inkl. Beispiel „Die Farbe der Jacke“
+activities/index.html    Aktivitäten / gemeinsame Freizeitgestaltung
+team/index.html          Team (4 Profile)
+contact/index.html       Kontakt & Nachrichtenformular
+feedback/index.html      Feedback / Stimmen zum Projekt
+
+about.html, workshops.html, activities.html, team.html, contact.html,
+feedback.html            Weiterleitungen (301-artig per Meta-Refresh/JS) auf
+                         die jeweilige /ordner/-Version, für alte Links
+
 css/style.css      Gemeinsames Stylesheet (Farben aus dem Logo)
 js/i18n.js         Übersetzungen: Deutsch, Englisch, Türkisch, Arabisch, Persisch
 js/main.js         Sprachumschaltung, mobiles Menü, Scroll-Animationen
@@ -21,6 +32,16 @@ assets/icon.svg    Logo-Bildmarke ohne Schriftzug — Header & Favicon (helle Fl
 assets/icon-light.svg  Bildmarke in Hell/Weiß — für dunkle Flächen (Footer)
 CNAME              Für GitHub Pages: parti-scouts.de
 ```
+
+Alle internen Links (Navigation, Footer, Karten) sowie CSS/JS/Bild-Referenzen
+verwenden absolute Pfade ab Domain-Root (`/about/`, `/css/style.css`,
+`/assets/...`) statt relativer Pfade — das ist nötig, weil die Seiten jetzt in
+unterschiedlichen Ordnertiefen liegen, und funktioniert unverändert unter
+GitHub Pages mit eigener Domain.
+
+**Neue Unterseite anlegen:** Ordner mit `index.html` erstellen (Vorbild:
+`feedback/index.html`), Navigation auf allen Seiten ergänzen (Header + Footer,
+7 Dateien) und bei Bedarf eine `<name>.html`-Weiterleitung im Root anlegen.
 
 ## Sprachen
 
