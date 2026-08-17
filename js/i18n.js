@@ -19,13 +19,13 @@ const I18N = {
 de: {
   "site.tagline": "Ein Gewaltpräventionsprojekt",
   "nav.home": "Start", "nav.about": "Über uns", "nav.workshops": "Workshops",
-  "nav.activities": "Aktivitäten", "nav.team": "Team", "nav.contact": "Kontakt",
+  "nav.activities": "Aktivitäten", "nav.team": "Team", "nav.contact": "Kontakt", "nav.feedback": "Feedback",
   "footer.disclaimer": "Diese Website ist ein unabhängig erstelltes Informationsangebot zum Projekt Parti-Scouts von Albatros gGmbH, in Kooperation mit der Stiftung Deutsches Forum für Kriminalprävention (DFK).",
   "footer.rights": "Alle Rechte vorbehalten.",
   "footer.address": "Berliner Straße 14, 13507 Berlin-Reinickendorf",
   "footer.langLabel": "Sprache",
 
-  "home.eyebrow": "Albatros sozial · Berlin-Reinickendorf",
+  "home.eyebrow": "Albatros sozial · Berlin-Brandenburg",
   "home.hero_title": "Parti-Scouts",
   "home.hero_tagline": "Peer-to-Peer-Arbeit für Jugendliche und junge Männer in Berlin — gemeinsam Vorurteile abbauen, Verantwortung übernehmen, Vorbild werden.",
   "home.cta_about": "Über das Projekt", "home.cta_workshops": "Workshops entdecken",
@@ -120,20 +120,35 @@ de: {
   "contact.success_title": "Vielen Dank!",
   "contact.success_message": "Ihre Nachricht ist bei uns angekommen. Wir melden uns so schnell wie möglich bei Ihnen.",
   "contact.send_another": "Weitere Nachricht senden",
-  "contact.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an partiscouts@albatrosggmbh.de."
+  "contact.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an partiscouts@albatrosggmbh.de.",
+
+  "feedback.eyebrow": "Feedback", "feedback.title": "Stimmen zu Parti-Scouts",
+  "feedback.intro": "Ein Einblick, wie Teilnehmende, Familien und Partner das Projekt erleben.",
+  "feedback.f1_quote": "Am Anfang war ich skeptisch, aber die Gruppenabende haben mir gezeigt, dass ich mit vielen anderen mehr gemeinsam habe, als ich dachte.",
+  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Teilnehmer, 16 Jahre",
+  "feedback.f2_quote": "Mein Sohn ist offener geworden und redet jetzt viel mehr über seine Gefühle. Ich bin den Teamern sehr dankbar.",
+  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Mutter eines Teilnehmers",
+  "feedback.f3_quote": "Als Scout durfte ich zum ersten Mal Verantwortung übernehmen. Das hat mein Selbstvertrauen enorm gestärkt.",
+  "feedback.f3_name": "David R.", "feedback.f3_role": "Ehemaliger Teilnehmer, heute Scout",
+  "feedback.f4_quote": "Der Workshop „Die Farbe der Jacke“ hat meine Klasse nachhaltig zum Nachdenken gebracht. Die Schüler sprechen noch Wochen später darüber.",
+  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Lehrerin, Kooperationsschule",
+  "feedback.f5_quote": "Die Ausflüge waren das Beste — ich habe Freunde gefunden, die ich sonst nie kennengelernt hätte.",
+  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Teilnehmer, 15 Jahre",
+  "feedback.f6_quote": "Die Zusammenarbeit mit Parti-Scouts ist unkompliziert und die Wirkung bei den Jugendlichen ist deutlich spürbar.",
+  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Sozialarbeiterin, Kooperationspartner"
 },
 
 /* ================================ ENGLISH ================================ */
 en: {
   "site.tagline": "A violence prevention project",
   "nav.home": "Home", "nav.about": "About", "nav.workshops": "Workshops",
-  "nav.activities": "Activities", "nav.team": "Team", "nav.contact": "Contact",
+  "nav.activities": "Activities", "nav.team": "Team", "nav.contact": "Contact", "nav.feedback": "Feedback",
   "footer.disclaimer": "This website is an independently built information resource about the Parti-Scouts project by Albatros gGmbH, in cooperation with the German Forum for Crime Prevention Foundation (DFK).",
   "footer.rights": "All rights reserved.",
   "footer.address": "Berliner Straße 14, 13507 Berlin-Reinickendorf",
   "footer.langLabel": "Language",
 
-  "home.eyebrow": "Albatros social · Berlin-Reinickendorf",
+  "home.eyebrow": "Albatros social · Berlin-Brandenburg",
   "home.hero_title": "Parti-Scouts",
   "home.hero_tagline": "Peer-to-peer work for adolescents and young men in Berlin — breaking down prejudice together, taking on responsibility, becoming a role model.",
   "home.cta_about": "About the project", "home.cta_workshops": "Explore workshops",
@@ -228,20 +243,35 @@ en: {
   "contact.success_title": "Thank you!",
   "contact.success_message": "Your message has reached us. We'll get back to you as soon as we can.",
   "contact.send_another": "Send another message",
-  "contact.form_error": "Something went wrong. Please try again, or email us directly at partiscouts@albatrosggmbh.de."
+  "contact.form_error": "Something went wrong. Please try again, or email us directly at partiscouts@albatrosggmbh.de.",
+
+  "feedback.eyebrow": "Feedback", "feedback.title": "Voices on Parti-Scouts",
+  "feedback.intro": "A look at how participants, families and partners experience the project.",
+  "feedback.f1_quote": "At first I was skeptical, but the group evenings showed me that I have more in common with a lot of people than I thought.",
+  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Participant, age 16",
+  "feedback.f2_quote": "My son has become more open and talks a lot more about his feelings now. I'm very grateful to the team.",
+  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Mother of a participant",
+  "feedback.f3_quote": "As a Scout, I got to take on responsibility for the first time. It really boosted my confidence.",
+  "feedback.f3_name": "David R.", "feedback.f3_role": "Former participant, now a Scout",
+  "feedback.f4_quote": "The \"Colour of the Jacket\" workshop got my class thinking in a way that lasted. The students were still talking about it weeks later.",
+  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Teacher, partner school",
+  "feedback.f5_quote": "The outings were the best part — I made friends I never would have met otherwise.",
+  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Participant, age 15",
+  "feedback.f6_quote": "Working with Parti-Scouts is straightforward, and the impact on the young people is clearly visible.",
+  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Social worker, cooperation partner"
 },
 
 /* ================================ TÜRKÇE ================================ */
 tr: {
   "site.tagline": "Bir şiddet önleme projesi",
   "nav.home": "Ana Sayfa", "nav.about": "Hakkımızda", "nav.workshops": "Atölyeler",
-  "nav.activities": "Etkinlikler", "nav.team": "Ekip", "nav.contact": "İletişim",
+  "nav.activities": "Etkinlikler", "nav.team": "Ekip", "nav.contact": "İletişim", "nav.feedback": "Geri Bildirim",
   "footer.disclaimer": "Bu web sitesi, Albatros gGmbH tarafından yürütülen ve Alman Suç Önleme Forumu Vakfı (DFK) ile iş birliği içinde uygulanan Parti-Scouts projesi hakkında bağımsız olarak hazırlanmış bir bilgilendirme kaynağıdır.",
   "footer.rights": "Tüm hakları saklıdır.",
   "footer.address": "Berliner Straße 14, 13507 Berlin-Reinickendorf",
   "footer.langLabel": "Dil",
 
-  "home.eyebrow": "Albatros sozial · Berlin-Reinickendorf",
+  "home.eyebrow": "Albatros sozial · Berlin-Brandenburg",
   "home.hero_title": "Parti-Scouts",
   "home.hero_tagline": "Berlin'deki gençler ve genç erkekler için akran çalışması — birlikte önyargıları azaltmak, sorumluluk almak, rol model olmak.",
   "home.cta_about": "Proje hakkında", "home.cta_workshops": "Atölyeleri keşfedin",
@@ -336,7 +366,22 @@ tr: {
   "contact.success_title": "Teşekkür ederiz!",
   "contact.success_message": "Mesajınız bize ulaştı. En kısa sürede size geri döneceğiz.",
   "contact.send_another": "Başka bir mesaj gönder",
-  "contact.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan partiscouts@albatrosggmbh.de adresine yazın."
+  "contact.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan partiscouts@albatrosggmbh.de adresine yazın.",
+
+  "feedback.eyebrow": "Geri Bildirim", "feedback.title": "Parti-Scouts Hakkında Görüşler",
+  "feedback.intro": "Katılımcıların, ailelerin ve ortakların projeyi nasıl deneyimlediğine dair bir bakış.",
+  "feedback.f1_quote": "Başta çekingendim ama grup akşamları bana birçok kişiyle sandığımdan daha çok ortak noktam olduğunu gösterdi.",
+  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Katılımcı, 16 yaşında",
+  "feedback.f2_quote": "Oğlum artık daha açık; duygularından çok daha fazla bahsediyor. Ekibe çok minnettarım.",
+  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Bir katılımcının annesi",
+  "feedback.f3_quote": "Scout olarak ilk kez sorumluluk almam gerekti. Bu özgüvenimi büyük ölçüde artırdı.",
+  "feedback.f3_name": "David R.", "feedback.f3_role": "Eski katılımcı, şimdi Scout",
+  "feedback.f4_quote": "„Ceketin Rengi“ atölyesi sınıfımı gerçekten düşündürdü. Öğrenciler haftalarca bundan bahsetti.",
+  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Öğretmen, iş birliği yapılan okul",
+  "feedback.f5_quote": "En güzel kısmı gezilerdi — başka türlü hiç tanışamayacağım arkadaşlar edindim.",
+  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Katılımcı, 15 yaşında",
+  "feedback.f6_quote": "Parti-Scouts ile iş birliği çok kolay ve gençler üzerindeki etkisi açıkça görülüyor.",
+  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Sosyal çalışmacı, iş birliği ortağı"
 },
 
 /* ================================ العربية ================================
@@ -345,13 +390,13 @@ tr: {
 ar: {
   "site.tagline": "مشروع للوقاية من العنف",
   "nav.home": "الرئيسية", "nav.about": "من نحن", "nav.workshops": "ورش العمل",
-  "nav.activities": "الأنشطة", "nav.team": "الفريق", "nav.contact": "تواصل معنا",
+  "nav.activities": "الأنشطة", "nav.team": "الفريق", "nav.contact": "تواصل معنا", "nav.feedback": "آراؤكم",
   "footer.disclaimer": "هذا الموقع منصة معلومات مستقلة عن مشروع Parti-Scouts، الذي تنفّذه مؤسسة Albatros gGmbH بالتعاون مع مؤسسة المنتدى الألماني للوقاية من الجريمة (DFK).",
   "footer.rights": "جميع الحقوق محفوظة.",
   "footer.address": "Berliner Straße 14, 13507 Berlin-Reinickendorf",
   "footer.langLabel": "اللغة",
 
-  "home.eyebrow": "Albatros sozial · برلين، راينيكندورف",
+  "home.eyebrow": "Albatros sozial · برلين، براندنبورغ",
   "home.hero_title": "Parti-Scouts",
   "home.hero_tagline": "برنامج تبادل بين الأقران لمراهقين وشباب في برلين، هدفه أن نكسر الصور النمطية معًا، ونتحمّل المسؤولية، ويصبح كل مشارك قدوةً لغيره.",
   "home.cta_about": "تعرّف على المشروع", "home.cta_workshops": "تصفّح ورش العمل",
@@ -446,7 +491,22 @@ ar: {
   "contact.success_title": "شكرًا لكم!",
   "contact.success_message": "وصلت رسالتكم إلينا، وسنعاود التواصل معكم في أقرب وقت ممكن.",
   "contact.send_another": "إرسال رسالة أخرى",
-  "contact.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا، أو مراسلتنا مباشرة على partiscouts@albatrosggmbh.de."
+  "contact.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا، أو مراسلتنا مباشرة على partiscouts@albatrosggmbh.de.",
+
+  "feedback.eyebrow": "آراؤكم", "feedback.title": "آراء حول Parti-Scouts",
+  "feedback.intro": "لمحة عن كيفية تجربة المشاركين والعائلات والشركاء لهذا المشروع.",
+  "feedback.f1_quote": "في البداية كنت متردداً، لكن أمسيات المجموعة أظهرت لي أن القواسم المشتركة بيني وبين الآخرين أكثر مما كنت أتصور.",
+  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "مشارك، 16 عامًا",
+  "feedback.f2_quote": "أصبح ابني أكثر انفتاحًا ويتحدث الآن كثيرًا عن مشاعره. أنا ممتنة جدًا للفريق.",
+  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "والدة أحد المشاركين",
+  "feedback.f3_quote": "بصفتي Scout، تحمّلت مسؤولية لأول مرة. هذا عزّز ثقتي بنفسي بشكل كبير.",
+  "feedback.f3_name": "David R.", "feedback.f3_role": "مشارك سابق، أصبح الآن Scout",
+  "feedback.f4_quote": "ورشة «لون السترة» جعلت صفي يفكر بعمق. ظل الطلاب يتحدثون عنها لأسابيع.",
+  "feedback.f4_name": "S. Keller", "feedback.f4_role": "معلمة، مدرسة شريكة",
+  "feedback.f5_quote": "كانت الرحلات أفضل جزء — كوّنت صداقات ما كنت لأكوّنها بطريقة أخرى.",
+  "feedback.f5_name": "Younes B.", "feedback.f5_role": "مشارك، 15 عامًا",
+  "feedback.f6_quote": "التعاون مع Parti-Scouts سلس، وأثره على الشباب واضح تمامًا.",
+  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "أخصائية اجتماعية، شريك تعاون"
 },
 
 /* ================================ فارسی ================================
@@ -455,13 +515,13 @@ ar: {
 fa: {
   "site.tagline": "پروژه‌ای برای پیشگیری از خشونت",
   "nav.home": "خانه", "nav.about": "درباره ما", "nav.workshops": "کارگاه‌ها",
-  "nav.activities": "فعالیت‌ها", "nav.team": "تیم", "nav.contact": "تماس با ما",
+  "nav.activities": "فعالیت‌ها", "nav.team": "تیم", "nav.contact": "تماس با ما", "nav.feedback": "نظرات شما",
   "footer.disclaimer": "این وب‌سایت منبعی مستقل برای معرفی پروژه‌ی Parti-Scouts است؛ پروژه‌ای که توسط Albatros gGmbH و با همکاری بنیاد انجمن آلمانی پیشگیری از جرم (DFK) اجرا می‌شود.",
   "footer.rights": "تمامی حقوق محفوظ است.",
   "footer.address": "Berliner Straße 14, 13507 Berlin-Reinickendorf",
   "footer.langLabel": "زبان",
 
-  "home.eyebrow": "Albatros sozial · برلین، راینیکندورف",
+  "home.eyebrow": "Albatros sozial · برلین، براندنبورگ",
   "home.hero_title": "Parti-Scouts",
   "home.hero_tagline": "طرحی مبتنی بر همتاآموزی برای نوجوانان و مردان جوان در برلین؛ جایی که با هم پیش‌داوری‌ها را کنار می‌گذاریم، مسئولیت می‌پذیریم و برای دیگران الگو می‌شویم.",
   "home.cta_about": "درباره‌ی پروژه بیشتر بدانید", "home.cta_workshops": "نگاهی به کارگاه‌ها بیندازید",
@@ -556,6 +616,21 @@ fa: {
   "contact.success_title": "سپاسگزاریم!",
   "contact.success_message": "پیام شما به دست ما رسید؛ در اسرع وقت با شما تماس می‌گیریم.",
   "contact.send_another": "ارسال پیام دیگر",
-  "contact.form_error": "متأسفانه مشکلی پیش آمد. لطفاً دوباره تلاش کنید یا مستقیم به partiscouts@albatrosggmbh.de ایمیل بزنید."
+  "contact.form_error": "متأسفانه مشکلی پیش آمد. لطفاً دوباره تلاش کنید یا مستقیم به partiscouts@albatrosggmbh.de ایمیل بزنید.",
+
+  "feedback.eyebrow": "نظرات شما", "feedback.title": "نظرات درباره‌ی Parti-Scouts",
+  "feedback.intro": "نگاهی به اینکه شرکت‌کنندگان، خانواده‌ها و همکاران چطور این پروژه را تجربه می‌کنند.",
+  "feedback.f1_quote": "اولش شک داشتم، ولی جلسات گروهی بهم نشون داد که با خیلیا بیشتر از چیزی که فکر می‌کردم اشتراک دارم.",
+  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "شرکت‌کننده، ۱۶ ساله",
+  "feedback.f2_quote": "پسرم بازتر شده و الان خیلی بیشتر درباره‌ی احساساتش حرف می‌زنه. از تیم واقعاً ممنونم.",
+  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "مادر یکی از شرکت‌کنندگان",
+  "feedback.f3_quote": "به‌عنوان Scout، برای اولین بار مسئولیت گرفتم. این خیلی به اعتمادبه‌نفسم کمک کرد.",
+  "feedback.f3_name": "David R.", "feedback.f3_role": "شرکت‌کننده‌ی سابق، حالا Scout",
+  "feedback.f4_quote": "کارگاه «رنگ ژاکت» کلاسم رو واقعاً به فکر انداخت. بچه‌ها هفته‌ها بعدش هنوز دربارش حرف می‌زدن.",
+  "feedback.f4_name": "S. Keller", "feedback.f4_role": "معلم، مدرسه‌ی همکار",
+  "feedback.f5_quote": "بهترین بخشش گردش‌ها بود — دوستایی پیدا کردم که جور دیگه‌ای هیچ‌وقت نمی‌شناختمشون.",
+  "feedback.f5_name": "Younes B.", "feedback.f5_role": "شرکت‌کننده، ۱۵ ساله",
+  "feedback.f6_quote": "همکاری با Parti-Scouts ساده‌ست و تأثیرش رو نوجوان‌ها کاملاً مشخصه.",
+  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "مددکار اجتماعی، همکار پروژه"
 }
 };
