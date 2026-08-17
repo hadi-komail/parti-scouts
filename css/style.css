@@ -168,8 +168,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn-primary:hover{background:var(--green-dark);}
 .btn-ghost{border-color:rgba(255,255,255,0.5); color:#fff;}
 .btn-ghost:hover{background:rgba(255,255,255,0.1);}
-.btn-outline{border-color:var(--navy); color:var(--navy);}
-.btn-outline:hover{background:var(--navy-tint);}
 
 .hero-facts{
   display:grid; grid-template-columns:repeat(3,1fr); gap:20px;
@@ -257,7 +255,6 @@ section.tight{padding:64px 0;}
   padding:28px; box-shadow:var(--shadow);
 }
 @media (max-width:760px){.news-item{grid-template-columns:1fr; gap:20px;}}
-.news-item.no-image{grid-template-columns:1fr;}
 .news-item .news-img{border-radius:var(--radius-sm); overflow:hidden; align-self:start;}
 .news-item .news-img img{width:100%; height:auto; display:block;}
 .news-meta{display:flex; gap:14px; flex-wrap:wrap; font-family:var(--display); font-size:12px; font-weight:600; letter-spacing:0.05em; text-transform:uppercase; color:var(--green-dark); margin-bottom:10px;}
@@ -414,7 +411,6 @@ form.contact-form{display:flex; flex-direction:column; gap:16px;}
 .team-card p{font-size:13.5px; color:var(--muted);}
 .team-card p a{color:var(--green-dark); font-weight:500;}
 .team-card p a:hover{text-decoration:underline;}
-.placeholder-note{font-size:13px; color:var(--muted); background:var(--green-tint); border-radius:var(--radius-sm); padding:14px 18px; margin-top:28px;}
 
 /* ---------- Feedback ---------- */
 .feedback-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
@@ -478,5 +474,4 @@ form.contact-form{display:flex; flex-direction:column; gap:16px;}
 .copyright{margin-top:22px; font-size:12px; color:#7A8B8E;}
 
 /* ---------- utility ---------- */
-.center{text-align:center;}
 .mt-lg{margin-top:56px;}

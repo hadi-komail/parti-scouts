@@ -13,7 +13,7 @@ Weiterleitungen bestehen, damit bestehende Links/Lesezeichen nicht brechen.
 
 ```
 index.html              Startseite (bereits ohne Endung unter "/" erreichbar)
-about/index.html         Über das Projekt, Albatros sozial & Stiftung DFK
+about/index.html         Über das Projekt, Albatros Social & Stiftung DFK
 workshops/index.html     Workshops, inkl. Beispiel „Die Farbe der Jacke“
 activities/index.html    Aktivitäten / gemeinsame Freizeitgestaltung
 team/index.html          Team (4 Profile)
