@@ -63,7 +63,7 @@ Bedarf ergänzt werden (`.avatar` in `css/style.css` durch `<img>` ersetzen).
 `contact.html` sendet über den Formspree-Endpunkt
 `https://formspree.io/f/xeajozkq` — funktioniert ohne eigenen Server direkt
 auf GitHub Pages. Zugestellt wird an die im Formspree-Dashboard hinterlegte
-Adresse. Die im Kontaktbereich angezeigte Adresse ist `contact@parti-scouts.de`.
+Adresse. Die im Kontaktbereich angezeigte Adresse ist `partiscouts@albatrosggmbh.de`.
 
 ## Noch zu prüfen
 

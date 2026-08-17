@@ -120,7 +120,7 @@ de: {
   "contact.success_title": "Vielen Dank!",
   "contact.success_message": "Ihre Nachricht ist bei uns angekommen. Wir melden uns so schnell wie möglich bei Ihnen.",
   "contact.send_another": "Weitere Nachricht senden",
-  "contact.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an contact@parti-scouts.de."
+  "contact.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an partiscouts@albatrosggmbh.de."
 },
 
 /* ================================ ENGLISH ================================ */
@@ -228,7 +228,7 @@ en: {
   "contact.success_title": "Thank you!",
   "contact.success_message": "Your message has reached us. We'll get back to you as soon as we can.",
   "contact.send_another": "Send another message",
-  "contact.form_error": "Something went wrong. Please try again, or email us directly at contact@parti-scouts.de."
+  "contact.form_error": "Something went wrong. Please try again, or email us directly at partiscouts@albatrosggmbh.de."
 },
 
 /* ================================ TÜRKÇE ================================ */
@@ -336,7 +336,7 @@ tr: {
   "contact.success_title": "Teşekkür ederiz!",
   "contact.success_message": "Mesajınız bize ulaştı. En kısa sürede size geri döneceğiz.",
   "contact.send_another": "Başka bir mesaj gönder",
-  "contact.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan contact@parti-scouts.de adresine yazın."
+  "contact.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan partiscouts@albatrosggmbh.de adresine yazın."
 },
 
 /* ================================ العربية ================================
@@ -446,7 +446,7 @@ ar: {
   "contact.success_title": "شكرًا لكم!",
   "contact.success_message": "وصلت رسالتكم إلينا، وسنعاود التواصل معكم في أقرب وقت ممكن.",
   "contact.send_another": "إرسال رسالة أخرى",
-  "contact.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا، أو مراسلتنا مباشرة على contact@parti-scouts.de."
+  "contact.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا، أو مراسلتنا مباشرة على partiscouts@albatrosggmbh.de."
 },
 
 /* ================================ فارسی ================================
@@ -556,6 +556,6 @@ fa: {
   "contact.success_title": "سپاسگزاریم!",
   "contact.success_message": "پیام شما به دست ما رسید؛ در اسرع وقت با شما تماس می‌گیریم.",
   "contact.send_another": "ارسال پیام دیگر",
-  "contact.form_error": "متأسفانه مشکلی پیش آمد. لطفاً دوباره تلاش کنید یا مستقیم به contact@parti-scouts.de ایمیل بزنید."
+  "contact.form_error": "متأسفانه مشکلی پیش آمد. لطفاً دوباره تلاش کنید یا مستقیم به partiscouts@albatrosggmbh.de ایمیل بزنید."
 }
 };
