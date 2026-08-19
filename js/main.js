@@ -77,6 +77,35 @@
     });
   }
 
+  function initHeaderScroll() {
+    var header = document.querySelector(".site-header");
+    var nav = document.querySelector(".main-nav");
+    if (!header) return;
+    var lastY = window.scrollY;
+    var ticking = false;
+
+    function update() {
+      var y = window.scrollY;
+      var navOpen = nav && nav.classList.contains("open");
+      if (!navOpen) {
+        if (y > lastY && y > 80) {
+          header.classList.add("header-hidden");
+        } else {
+          header.classList.remove("header-hidden");
+        }
+      }
+      lastY = y;
+      ticking = false;
+    }
+
+    window.addEventListener("scroll", function () {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
   function markActiveNav() {
     var path = window.location.pathname.split("/").pop() || "index.html";
     document.querySelectorAll(".main-nav a, .footer-nav a").forEach(function (a) {
@@ -108,6 +137,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     initLangBar();
     initMobileNav();
+    initHeaderScroll();
     markActiveNav();
     initReveal();
     applyLanguage(getStoredLang());
