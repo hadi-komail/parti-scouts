@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css?v=20260817a">
+<link rel="stylesheet" href="/css/style.css?v=20260819a">
 </head>
 <body>
 
@@ -42,71 +42,46 @@
 
 <section>
   <div class="wrap">
-    <div class="feedback-grid reveal">
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f1_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">AK</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f1_name">Ahmad K.</span>
-            <span class="role" data-i18n="feedback.f1_role">Teilnehmer, 16 Jahre</span>
-          </div>
+    <div class="feedback-grid reveal" id="feedback-list"></div>
+    <p id="feedback-loading" data-i18n="feedback.loading" style="color:var(--muted); font-size:14.5px;">…</p>
+    <p id="feedback-empty" data-i18n="feedback.empty" style="display:none; color:var(--muted); font-size:14.5px;">…</p>
+  </div>
+</section>
+
+<section class="tight" style="background:var(--orange-tint);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="feedback.form_eyebrow">Mitmachen</span>
+      <h2 data-i18n="feedback.form_title">Teilen Sie Ihre Erfahrung</h2>
+    </div>
+    <div class="contact-form-wrap">
+      <form class="contact-form" id="feedbackForm" style="max-width:640px;">
+        <div class="field">
+          <label for="fb-name" data-i18n="feedback.form_name">Name</label>
+          <input type="text" id="fb-name" name="name" required maxlength="80">
         </div>
-      </div>
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f2_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">EY</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f2_name">Elif Y.</span>
-            <span class="role" data-i18n="feedback.f2_role">Mutter eines Teilnehmers</span>
-          </div>
+        <div class="field">
+          <label for="fb-occupation" data-i18n="feedback.form_occupation">Rolle / Tätigkeit</label>
+          <input type="text" id="fb-occupation" name="occupation" maxlength="120">
         </div>
-      </div>
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f3_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">DR</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f3_name">David R.</span>
-            <span class="role" data-i18n="feedback.f3_role">Ehemaliger Teilnehmer, heute Scout</span>
-          </div>
+        <div class="field">
+          <label for="fb-review" data-i18n="feedback.form_review">Ihr Feedback</label>
+          <textarea id="fb-review" name="review" required maxlength="1000"></textarea>
         </div>
-      </div>
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f4_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">SK</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f4_name">S. Keller</span>
-            <span class="role" data-i18n="feedback.f4_role">Lehrerin, Kooperationsschule</span>
-          </div>
+        <div style="position:absolute; left:-9999px;" aria-hidden="true">
+          <label for="fb-website">Website</label>
+          <input type="text" id="fb-website" name="website" tabindex="-1" autocomplete="off">
         </div>
-      </div>
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f5_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">YB</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f5_name">Younes B.</span>
-            <span class="role" data-i18n="feedback.f5_role">Teilnehmer, 15 Jahre</span>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-card">
-        <span class="mark" aria-hidden="true">“</span>
-        <p class="quote" data-i18n="feedback.f6_quote">…</p>
-        <div class="author">
-          <div class="author-avatar" aria-hidden="true">MB</div>
-          <div class="author-text">
-            <span class="name" data-i18n="feedback.f6_name">M. Bauer</span>
-            <span class="role" data-i18n="feedback.f6_role">Sozialarbeiterin, Kooperationspartner</span>
-          </div>
+        <p class="form-error-msg" id="feedbackFormError" data-i18n="feedback.form_error" role="alert"></p>
+        <button type="submit" class="btn btn-primary" id="feedbackSubmit" style="align-self:flex-start;" data-i18n="feedback.form_submit">Feedback veröffentlichen</button>
+      </form>
+
+      <div class="form-success" id="feedbackSuccess" role="status" tabindex="-1" hidden>
+        <span class="check" aria-hidden="true">✓</span>
+        <div>
+          <h3 data-i18n="feedback.form_success_title">Danke!</h3>
+          <p data-i18n="feedback.form_success">…</p>
+          <button type="button" class="send-another" id="feedbackReset" data-i18n="feedback.send_another">Weiteres Feedback geben</button>
         </div>
       </div>
     </div>
@@ -136,7 +111,9 @@
   </div>
 </footer>
 
-<script src="/js/i18n.js?v=20260817a"></script>
-<script src="/js/main.js?v=20260817a"></script>
+<script src="/js/i18n.js?v=20260819a"></script>
+<script src="/js/main.js?v=20260819a"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="/js/feedback.js?v=20260819a"></script>
 </body>
 </html>

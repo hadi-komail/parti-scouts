@@ -141,18 +141,15 @@ de: {
 
   "feedback.eyebrow": "Feedback", "feedback.title": "Stimmen zu Parti-Scouts",
   "feedback.intro": "Ein Einblick, wie Teilnehmende, Familien und Partner das Projekt erleben.",
-  "feedback.f1_quote": "Am Anfang war ich skeptisch, aber die Gruppenabende haben mir gezeigt, dass ich mit vielen anderen mehr gemeinsam habe, als ich dachte.",
-  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Teilnehmer, 16 Jahre",
-  "feedback.f2_quote": "Mein Sohn ist offener geworden und redet jetzt viel mehr über seine Gefühle. Ich bin den Teamern sehr dankbar.",
-  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Mutter eines Teilnehmers",
-  "feedback.f3_quote": "Als Scout durfte ich zum ersten Mal Verantwortung übernehmen. Das hat mein Selbstvertrauen enorm gestärkt.",
-  "feedback.f3_name": "David R.", "feedback.f3_role": "Ehemaliger Teilnehmer, heute Scout",
-  "feedback.f4_quote": "Der Workshop „Die Farbe der Jacke“ hat meine Klasse nachhaltig zum Nachdenken gebracht. Die Schüler sprechen noch Wochen später darüber.",
-  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Lehrerin, Kooperationsschule",
-  "feedback.f5_quote": "Die Ausflüge waren das Beste — ich habe Freunde gefunden, die ich sonst nie kennengelernt hätte.",
-  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Teilnehmer, 15 Jahre",
-  "feedback.f6_quote": "Die Zusammenarbeit mit Parti-Scouts ist unkompliziert und die Wirkung bei den Jugendlichen ist deutlich spürbar.",
-  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Sozialarbeiterin, Kooperationspartner"
+  "feedback.loading": "Wird geladen …",
+  "feedback.empty": "Noch keine Rückmeldungen. Seien Sie die oder der Erste!",
+  "feedback.form_eyebrow": "Mitmachen", "feedback.form_title": "Teilen Sie Ihre Erfahrung",
+  "feedback.form_name": "Name", "feedback.form_occupation": "Rolle / Tätigkeit", "feedback.form_review": "Ihr Feedback",
+  "feedback.form_submit": "Feedback veröffentlichen", "feedback.form_sending": "Wird gesendet …",
+  "feedback.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut.",
+  "feedback.form_success_title": "Danke!",
+  "feedback.form_success": "Ihr Feedback wurde veröffentlicht und ist jetzt auf dieser Seite sichtbar.",
+  "feedback.send_another": "Weiteres Feedback geben"
 },
 
 /* ================================ ENGLISH ================================ */
@@ -281,18 +278,15 @@ en: {
 
   "feedback.eyebrow": "Feedback", "feedback.title": "Voices on Parti-Scouts",
   "feedback.intro": "A look at how participants, families and partners experience the project.",
-  "feedback.f1_quote": "At first I was skeptical, but the group evenings showed me that I have more in common with a lot of people than I thought.",
-  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Participant, age 16",
-  "feedback.f2_quote": "My son has become more open and talks a lot more about his feelings now. I'm very grateful to the team.",
-  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Mother of a participant",
-  "feedback.f3_quote": "As a Scout, I got to take on responsibility for the first time. It really boosted my confidence.",
-  "feedback.f3_name": "David R.", "feedback.f3_role": "Former participant, now a Scout",
-  "feedback.f4_quote": "The \"Colour of the Jacket\" workshop got my class thinking in a way that lasted. The students were still talking about it weeks later.",
-  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Teacher, partner school",
-  "feedback.f5_quote": "The outings were the best part — I made friends I never would have met otherwise.",
-  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Participant, age 15",
-  "feedback.f6_quote": "Working with Parti-Scouts is straightforward, and the impact on the young people is clearly visible.",
-  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Social worker, cooperation partner"
+  "feedback.loading": "Loading …",
+  "feedback.empty": "No feedback yet. Be the first!",
+  "feedback.form_eyebrow": "Get Involved", "feedback.form_title": "Share Your Experience",
+  "feedback.form_name": "Name", "feedback.form_occupation": "Role / Occupation", "feedback.form_review": "Your feedback",
+  "feedback.form_submit": "Publish feedback", "feedback.form_sending": "Sending …",
+  "feedback.form_error": "Something went wrong. Please try again.",
+  "feedback.form_success_title": "Thank you!",
+  "feedback.form_success": "Your feedback has been published and is now visible on this page.",
+  "feedback.send_another": "Give more feedback"
 },
 
 /* ================================ TÜRKÇE ================================ */
@@ -421,18 +415,15 @@ tr: {
 
   "feedback.eyebrow": "Geri Bildirim", "feedback.title": "Parti-Scouts Hakkında Görüşler",
   "feedback.intro": "Katılımcıların, ailelerin ve ortakların projeyi nasıl deneyimlediğine dair bir bakış.",
-  "feedback.f1_quote": "Başta çekingendim ama grup akşamları bana birçok kişiyle sandığımdan daha çok ortak noktam olduğunu gösterdi.",
-  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "Katılımcı, 16 yaşında",
-  "feedback.f2_quote": "Oğlum artık daha açık; duygularından çok daha fazla bahsediyor. Ekibe çok minnettarım.",
-  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "Bir katılımcının annesi",
-  "feedback.f3_quote": "Scout olarak ilk kez sorumluluk almam gerekti. Bu özgüvenimi büyük ölçüde artırdı.",
-  "feedback.f3_name": "David R.", "feedback.f3_role": "Eski katılımcı, şimdi Scout",
-  "feedback.f4_quote": "„Ceketin Rengi“ atölyesi sınıfımı gerçekten düşündürdü. Öğrenciler haftalarca bundan bahsetti.",
-  "feedback.f4_name": "S. Keller", "feedback.f4_role": "Öğretmen, iş birliği yapılan okul",
-  "feedback.f5_quote": "En güzel kısmı gezilerdi — başka türlü hiç tanışamayacağım arkadaşlar edindim.",
-  "feedback.f5_name": "Younes B.", "feedback.f5_role": "Katılımcı, 15 yaşında",
-  "feedback.f6_quote": "Parti-Scouts ile iş birliği çok kolay ve gençler üzerindeki etkisi açıkça görülüyor.",
-  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "Sosyal çalışmacı, iş birliği ortağı"
+  "feedback.loading": "Yükleniyor …",
+  "feedback.empty": "Henüz geri bildirim yok. İlk siz olun!",
+  "feedback.form_eyebrow": "Katkıda Bulunun", "feedback.form_title": "Deneyiminizi Paylaşın",
+  "feedback.form_name": "İsim", "feedback.form_occupation": "Rol / Meslek", "feedback.form_review": "Geri bildiriminiz",
+  "feedback.form_submit": "Geri bildirimi yayınla", "feedback.form_sending": "Gönderiliyor …",
+  "feedback.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+  "feedback.form_success_title": "Teşekkürler!",
+  "feedback.form_success": "Geri bildiriminiz yayınlandı ve şimdi bu sayfada görünüyor.",
+  "feedback.send_another": "Başka bir geri bildirim gönder"
 },
 
 /* ================================ العربية ================================
@@ -563,18 +554,15 @@ ar: {
 
   "feedback.eyebrow": "آراؤكم", "feedback.title": "آراء حول Parti-Scouts",
   "feedback.intro": "لمحة عن كيفية تجربة المشاركين والعائلات والشركاء لهذا المشروع.",
-  "feedback.f1_quote": "في البداية كنت متردداً، لكن أمسيات المجموعة أظهرت لي أن القواسم المشتركة بيني وبين الآخرين أكثر مما كنت أتصور.",
-  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "مشارك، 16 عامًا",
-  "feedback.f2_quote": "أصبح ابني أكثر انفتاحًا ويتحدث الآن كثيرًا عن مشاعره. أنا ممتنة جدًا للفريق.",
-  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "والدة أحد المشاركين",
-  "feedback.f3_quote": "بصفتي Scout، تحمّلت مسؤولية لأول مرة. هذا عزّز ثقتي بنفسي بشكل كبير.",
-  "feedback.f3_name": "David R.", "feedback.f3_role": "مشارك سابق، أصبح الآن Scout",
-  "feedback.f4_quote": "ورشة «لون السترة» جعلت صفي يفكر بعمق. ظل الطلاب يتحدثون عنها لأسابيع.",
-  "feedback.f4_name": "S. Keller", "feedback.f4_role": "معلمة، مدرسة شريكة",
-  "feedback.f5_quote": "كانت الرحلات أفضل جزء — كوّنت صداقات ما كنت لأكوّنها بطريقة أخرى.",
-  "feedback.f5_name": "Younes B.", "feedback.f5_role": "مشارك، 15 عامًا",
-  "feedback.f6_quote": "التعاون مع Parti-Scouts سلس، وأثره على الشباب واضح تمامًا.",
-  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "أخصائية اجتماعية، شريك تعاون"
+  "feedback.loading": "جارٍ التحميل …",
+  "feedback.empty": "لا توجد آراء بعد. كونوا أول من يشارك!",
+  "feedback.form_eyebrow": "شاركونا", "feedback.form_title": "شاركوا تجربتكم",
+  "feedback.form_name": "الاسم", "feedback.form_occupation": "الدور / المهنة", "feedback.form_review": "رأيك أو ملاحظتك",
+  "feedback.form_submit": "نشر الرأي", "feedback.form_sending": "جارٍ الإرسال …",
+  "feedback.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا.",
+  "feedback.form_success_title": "شكرًا لكم!",
+  "feedback.form_success": "تم نشر رأيكم وهو الآن ظاهر في هذه الصفحة.",
+  "feedback.send_another": "إرسال رأي آخر"
 },
 
 /* ================================ فارسی ================================
@@ -705,17 +693,14 @@ fa: {
 
   "feedback.eyebrow": "نظرات شما", "feedback.title": "نظرات درباره‌ی Parti-Scouts",
   "feedback.intro": "نگاهی به اینکه شرکت‌کنندگان، خانواده‌ها و همکاران چطور این پروژه را تجربه می‌کنند.",
-  "feedback.f1_quote": "اولش شک داشتم، ولی جلسات گروهی بهم نشون داد که با خیلیا بیشتر از چیزی که فکر می‌کردم اشتراک دارم.",
-  "feedback.f1_name": "Ahmad K.", "feedback.f1_role": "شرکت‌کننده، ۱۶ ساله",
-  "feedback.f2_quote": "پسرم بازتر شده و الان خیلی بیشتر درباره‌ی احساساتش حرف می‌زنه. از تیم واقعاً ممنونم.",
-  "feedback.f2_name": "Elif Y.", "feedback.f2_role": "مادر یکی از شرکت‌کنندگان",
-  "feedback.f3_quote": "به‌عنوان Scout، برای اولین بار مسئولیت گرفتم. این خیلی به اعتمادبه‌نفسم کمک کرد.",
-  "feedback.f3_name": "David R.", "feedback.f3_role": "شرکت‌کننده‌ی سابق، حالا Scout",
-  "feedback.f4_quote": "کارگاه «رنگ ژاکت» کلاسم رو واقعاً به فکر انداخت. بچه‌ها هفته‌ها بعدش هنوز دربارش حرف می‌زدن.",
-  "feedback.f4_name": "S. Keller", "feedback.f4_role": "معلم، مدرسه‌ی همکار",
-  "feedback.f5_quote": "بهترین بخشش گردش‌ها بود — دوستایی پیدا کردم که جور دیگه‌ای هیچ‌وقت نمی‌شناختمشون.",
-  "feedback.f5_name": "Younes B.", "feedback.f5_role": "شرکت‌کننده، ۱۵ ساله",
-  "feedback.f6_quote": "همکاری با Parti-Scouts ساده‌ست و تأثیرش رو نوجوان‌ها کاملاً مشخصه.",
-  "feedback.f6_name": "M. Bauer", "feedback.f6_role": "مددکار اجتماعی، همکار پروژه"
+  "feedback.loading": "در حال بارگذاری …",
+  "feedback.empty": "هنوز نظری ثبت نشده. اولین نفر باشید!",
+  "feedback.form_eyebrow": "مشارکت کنید", "feedback.form_title": "تجربه‌ی خود را به اشتراک بگذارید",
+  "feedback.form_name": "نام", "feedback.form_occupation": "نقش / شغل", "feedback.form_review": "نظر شما",
+  "feedback.form_submit": "انتشار نظر", "feedback.form_sending": "در حال ارسال …",
+  "feedback.form_error": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.",
+  "feedback.form_success_title": "سپاسگزاریم!",
+  "feedback.form_success": "نظر شما منتشر شد و اکنون در این صفحه نمایش داده می‌شود.",
+  "feedback.send_another": "ارسال نظر دیگر"
 }
 };
