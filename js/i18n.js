@@ -17,7 +17,6 @@ const LANGUAGES = [
 const I18N = {
 /* ============================== DEUTSCH ============================== */
 de: {
-  "site.tagline": "Ein Gewaltpräventionsprojekt",
   "nav.home": "Start", "nav.about": "Über uns", "nav.workshops": "Workshops",
   "nav.activities": "Aktivitäten", "nav.team": "Team", "nav.contact": "Kontakt", "nav.feedback": "Feedback",
   "footer.disclaimer": "Diese Website ist ein unabhängig erstelltes Informationsangebot zum Projekt Parti-Scouts von Albatros gGmbH, in Kooperation mit der Stiftung Deutsches Forum für Kriminalprävention (DFK).",
@@ -158,7 +157,6 @@ de: {
 
 /* ================================ ENGLISH ================================ */
 en: {
-  "site.tagline": "A violence prevention project",
   "nav.home": "Home", "nav.about": "About", "nav.workshops": "Workshops",
   "nav.activities": "Activities", "nav.team": "Team", "nav.contact": "Contact", "nav.feedback": "Feedback",
   "footer.disclaimer": "This website is an independently built information resource about the Parti-Scouts project by Albatros gGmbH, in cooperation with the German Forum for Crime Prevention Foundation (DFK).",
@@ -299,7 +297,6 @@ en: {
 
 /* ================================ TÜRKÇE ================================ */
 tr: {
-  "site.tagline": "Bir şiddet önleme projesi",
   "nav.home": "Ana Sayfa", "nav.about": "Hakkımızda", "nav.workshops": "Atölyeler",
   "nav.activities": "Etkinlikler", "nav.team": "Ekip", "nav.contact": "İletişim", "nav.feedback": "Geri Bildirim",
   "footer.disclaimer": "Bu web sitesi, Albatros gGmbH tarafından yürütülen ve Alman Suç Önleme Forumu Vakfı (DFK) ile iş birliği içinde uygulanan Parti-Scouts projesi hakkında bağımsız olarak hazırlanmış bir bilgilendirme kaynağıdır.",
@@ -442,7 +439,6 @@ tr: {
    Naturalised for fluent, native-sounding Arabic — restructured sentences
    rather than mirroring the German/English word order literally. */
 ar: {
-  "site.tagline": "مشروع للوقاية من العنف",
   "nav.home": "الرئيسية", "nav.about": "من نحن", "nav.workshops": "ورش العمل",
   "nav.activities": "الأنشطة", "nav.team": "الفريق", "nav.contact": "تواصل معنا", "nav.feedback": "آراؤكم",
   "footer.disclaimer": "هذا الموقع منصة معلومات مستقلة عن مشروع Parti-Scouts، الذي تنفّذه مؤسسة Albatros gGmbH بالتعاون مع مؤسسة المنتدى الألماني للوقاية من الجريمة (DFK).",
@@ -585,7 +581,6 @@ ar: {
    Naturalised for fluent, native-sounding Persian — restructured sentences
    rather than mirroring the German/English word order literally. */
 fa: {
-  "site.tagline": "پروژه‌ای برای پیشگیری از خشونت",
   "nav.home": "خانه", "nav.about": "درباره ما", "nav.workshops": "کارگاه‌ها",
   "nav.activities": "فعالیت‌ها", "nav.team": "تیم", "nav.contact": "تماس با ما", "nav.feedback": "نظرات شما",
   "footer.disclaimer": "این وب‌سایت منبعی مستقل برای معرفی پروژه‌ی Parti-Scouts است؛ پروژه‌ای که توسط Albatros gGmbH و با همکاری بنیاد انجمن آلمانی پیشگیری از جرم (DFK) اجرا می‌شود.",

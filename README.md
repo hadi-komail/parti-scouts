@@ -24,12 +24,13 @@ about.html, workshops.html, activities.html, team.html, contact.html,
 feedback.html            Weiterleitungen (301-artig per Meta-Refresh/JS) auf
                          die jeweilige /ordner/-Version, für alte Links
 
-css/style.css      Gemeinsames Stylesheet (Farben aus dem Logo)
+css/style.css      Gemeinsames Stylesheet (Navy & Orange, aus dem Logo)
 js/i18n.js         Übersetzungen: Deutsch, Englisch, Türkisch, Arabisch, Persisch
 js/main.js         Sprachumschaltung, mobiles Menü, Scroll-Animationen
-assets/logo.svg    Vollständiges Logo (Bildmarke + Schriftzug), aktuell ungenutzt
-assets/icon.svg    Logo-Bildmarke ohne Schriftzug — Header & Favicon (helle Flächen)
+assets/logo.svg    Vollständiges Logo (Bildmarke + Schriftzug + Claim) — Header
+assets/icon.svg    Logo-Bildmarke ohne Schriftzug — Favicon (helle Flächen)
 assets/icon-light.svg  Bildmarke in Hell/Weiß — für dunkle Flächen (Footer)
+sitemap.xml        XML-Sitemap der 7 kanonischen Seiten, für Search Console/Bing
 CNAME              Für GitHub Pages: parti-scouts.de
 ```
 
@@ -60,7 +61,7 @@ Alle Texte liegen zentral in `js/i18n.js`. Neue Sprache hinzufügen: Objekt in
 ## Wichtig: immer den kompletten Ordner neu hochladen
 
 CSS und JavaScript sind mit einer Versionsnummer versehen
-(`style.css?v=20260810`, `i18n.js?v=20260810` usw.), damit Browser und die
+(`style.css?v=20260817a`, `i18n.js?v=20260817a` usw.), damit Browser und die
 GitHub-Pages-CDN nach einem Update nicht versehentlich eine alte,
 zwischengespeicherte Version ausliefern. **Trotzdem gilt:** Bei jedem Update
 immer den gesamten Ordnerinhalt hochladen — nicht nur einzelne HTML-Dateien.
@@ -69,19 +70,19 @@ Wird z. B. nur `index.html` aktualisiert, aber `css/style.css` oder
 neue Textschlüssel bleiben unübersetzt, neue Layout-Regeln fehlen.
 
 Bei zukünftigen Änderungen an `css/style.css` oder `js/*.js`: die Version in
-der `?v=...`-Kennung in allen sechs HTML-Dateien hochzählen (z. B. auf das
+der `?v=...`-Kennung in allen sieben Seiten (`index.html` + die sechs
+`*/index.html`) hochzählen (z. B. auf das
 aktuelle Datum), damit Browser die neue Version sicher laden.
 
 ## Team
 
-Die vier Profile auf `team.html` sind mit echten Namen, Rollen und
-E-Mail-Adressen befüllt (Majdy Aldoibal, Myriam Lagha, Hadi Komail, Yahya
-Hawa). Die Avatare zeigen Initialen statt Fotos — echte Fotos können bei
-Bedarf ergänzt werden (`.avatar` in `css/style.css` durch `<img>` ersetzen).
+Die vier Profile auf `team/index.html` sind mit echten Namen, Rollen,
+Fotos und E-Mail-Adressen befüllt (Majdy Aldoibal, Myriam Lagha, Hadi
+Komail, Yahya Hawa).
 
 ## Kontaktformular
 
-`contact.html` sendet über den Formspree-Endpunkt
+`contact/index.html` sendet über den Formspree-Endpunkt
 `https://formspree.io/f/xeajozkq` — funktioniert ohne eigenen Server direkt
 auf GitHub Pages. Zugestellt wird an die im Formspree-Dashboard hinterlegte
 Adresse. Die im Kontaktbereich angezeigte Adresse ist `partiscouts@albatrosggmbh.de`.
@@ -90,7 +91,6 @@ Adresse. Die im Kontaktbereich angezeigte Adresse ist `partiscouts@albatrosggmbh
 
 - Adresse und Telefonnummer stammen von der öffentlichen Albatros-Seite zu
   Parti-Scouts — bitte gegenprüfen, falls sich diese geändert haben.
-- Bei Bedarf echte Team-Fotos statt Initialen-Avatare ergänzen.
 
 ## Hosting auf GitHub Pages mit eigener Domain
 
