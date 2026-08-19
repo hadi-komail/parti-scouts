@@ -23,6 +23,9 @@
   var errorMsg = document.getElementById("feedbackFormError");
   var successPanel = document.getElementById("feedbackSuccess");
   var resetBtn = document.getElementById("feedbackReset");
+  var previewPanel = document.getElementById("feedbackPreview");
+  var editBtn = document.getElementById("previewEdit");
+  var publishBtn = document.getElementById("previewPublish");
 
   function currentDict() {
     try {
@@ -113,6 +116,8 @@
       });
   }
 
+  // Step 1: form submit shows a preview instead of publishing directly,
+  // so people can re-read their review before it goes live.
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (errorMsg) errorMsg.classList.remove("show");
@@ -123,56 +128,90 @@
     var review = document.getElementById("fb-review").value.trim();
     if (!name || !review) return;
 
-    // Silently "succeed" for bots that filled the hidden honeypot field.
+    // Silently drop bots that filled the hidden honeypot field.
     if (honeypot && honeypot.value) {
       form.reset();
       return;
     }
 
-    submitBtn.disabled = true;
-    var dict = currentDict();
-    var originalLabel = submitBtn.textContent;
-    if (dict["feedback.form_sending"]) submitBtn.textContent = dict["feedback.form_sending"];
+    document.getElementById("previewName").textContent = name;
+    var roleEl = document.getElementById("previewRole");
+    if (occupation) {
+      roleEl.textContent = occupation;
+      roleEl.style.display = "";
+    } else {
+      roleEl.textContent = "";
+      roleEl.style.display = "none";
+    }
+    document.getElementById("previewReview").textContent = review;
+    document.getElementById("previewAvatar").textContent = initials(name);
 
-    client
-      .from(TABLE)
-      .insert([{ name: name, occupation: occupation || null, review: review }])
-      .select()
-      .then(function (result) {
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalLabel;
-
-        if (result.error) {
-          if (errorMsg) errorMsg.classList.add("show");
-          return;
-        }
-
-        if (result.data && result.data[0]) {
-          list.insertBefore(buildCard(result.data[0]), list.firstChild);
-          if (emptyEl) emptyEl.style.display = "none";
-        }
-
-        form.style.display = "none";
-        if (successPanel) {
-          successPanel.hidden = false;
-          setTimeout(function () {
-            successPanel.classList.add("show");
-            successPanel.focus();
-          }, 0);
-        }
-      });
+    form.style.display = "none";
+    if (previewPanel) previewPanel.hidden = false;
   });
+
+  // Step 2: "Edit" goes back to the filled-in form without losing input.
+  if (editBtn) {
+    editBtn.addEventListener("click", function () {
+      if (previewPanel) previewPanel.hidden = true;
+      form.style.display = "";
+    });
+  }
+
+  // Step 3: only now does the feedback actually get written and go live.
+  if (publishBtn) {
+    publishBtn.addEventListener("click", function () {
+      var name = document.getElementById("fb-name").value.trim();
+      var occupation = document.getElementById("fb-occupation").value.trim();
+      var review = document.getElementById("fb-review").value.trim();
+      if (!name || !review) return;
+
+      publishBtn.disabled = true;
+      if (editBtn) editBtn.disabled = true;
+      var dict = currentDict();
+      var originalLabel = publishBtn.textContent;
+      if (dict["feedback.form_sending"]) publishBtn.textContent = dict["feedback.form_sending"];
+
+      client
+        .from(TABLE)
+        .insert([{ name: name, occupation: occupation || null, review: review }])
+        .select()
+        .then(function (result) {
+          publishBtn.disabled = false;
+          if (editBtn) editBtn.disabled = false;
+          publishBtn.textContent = originalLabel;
+
+          if (result.error) {
+            if (errorMsg) errorMsg.classList.add("show");
+            return;
+          }
+
+          if (result.data && result.data[0]) {
+            list.insertBefore(buildCard(result.data[0]), list.firstChild);
+            if (emptyEl) emptyEl.style.display = "none";
+          }
+
+          if (previewPanel) previewPanel.hidden = true;
+          if (successPanel) {
+            successPanel.hidden = false;
+            setTimeout(function () {
+              successPanel.classList.add("show");
+              successPanel.focus();
+            }, 0);
+          }
+        });
+    });
+  }
 
   if (resetBtn) {
     resetBtn.addEventListener("click", function () {
       form.reset();
       form.style.display = "";
+      if (previewPanel) previewPanel.hidden = true;
       if (successPanel) {
         successPanel.classList.remove("show");
         successPanel.hidden = true;
       }
-      var dict = currentDict();
-      if (dict["feedback.form_submit"]) submitBtn.textContent = dict["feedback.form_submit"];
       document.getElementById("fb-name").focus();
     });
   }

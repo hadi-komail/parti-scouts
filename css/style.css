@@ -166,6 +166,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .btn-primary:hover{background:var(--orange-dark);}
 .btn-ghost{border-color:rgba(255,255,255,0.5); color:#fff;}
 .btn-ghost:hover{background:rgba(255,255,255,0.1);}
+.btn-outline{border-color:var(--navy); color:var(--navy);}
+.btn-outline:hover{background:var(--navy-tint);}
 
 .hero-facts{
   display:grid; grid-template-columns:repeat(3,1fr); gap:20px;

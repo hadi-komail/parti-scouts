@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css?v=20260819a">
+<link rel="stylesheet" href="/css/style.css?v=20260819b">
 </head>
 <body>
 
@@ -72,9 +72,28 @@
           <label for="fb-website">Website</label>
           <input type="text" id="fb-website" name="website" tabindex="-1" autocomplete="off">
         </div>
-        <p class="form-error-msg" id="feedbackFormError" data-i18n="feedback.form_error" role="alert"></p>
-        <button type="submit" class="btn btn-primary" id="feedbackSubmit" style="align-self:flex-start;" data-i18n="feedback.form_submit">Feedback veröffentlichen</button>
+        <button type="submit" class="btn btn-primary" id="feedbackSubmit" style="align-self:flex-start;" data-i18n="feedback.form_submit">Vorschau ansehen</button>
       </form>
+
+      <div id="feedbackPreview" hidden style="max-width:640px;">
+        <p class="form-note" data-i18n="feedback.preview_hint">So wird Ihr Feedback aussehen:</p>
+        <div class="feedback-card" style="margin-bottom:16px;">
+          <span class="mark" aria-hidden="true">“</span>
+          <p class="quote" id="previewReview"></p>
+          <div class="author">
+            <div class="author-avatar" aria-hidden="true" id="previewAvatar"></div>
+            <div class="author-text">
+              <span class="name" id="previewName"></span>
+              <span class="role" id="previewRole"></span>
+            </div>
+          </div>
+        </div>
+        <p class="form-error-msg" id="feedbackFormError" data-i18n="feedback.form_error" role="alert"></p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <button type="button" class="btn btn-outline" id="previewEdit" data-i18n="feedback.preview_edit">Bearbeiten</button>
+          <button type="button" class="btn btn-primary" id="previewPublish" data-i18n="feedback.preview_publish">Veröffentlichen</button>
+        </div>
+      </div>
 
       <div class="form-success" id="feedbackSuccess" role="status" tabindex="-1" hidden>
         <span class="check" aria-hidden="true">✓</span>
@@ -111,9 +130,9 @@
   </div>
 </footer>
 
-<script src="/js/i18n.js?v=20260819a"></script>
-<script src="/js/main.js?v=20260819a"></script>
+<script src="/js/i18n.js?v=20260819b"></script>
+<script src="/js/main.js?v=20260819b"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
-<script src="/js/feedback.js?v=20260819a"></script>
+<script src="/js/feedback.js?v=20260819b"></script>
 </body>
 </html>
