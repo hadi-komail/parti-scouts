@@ -92,8 +92,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   max-width:1140px; margin:0 auto; padding:14px 28px;
   display:flex; align-items:center; justify-content:space-between; gap:24px;
 }
-.brand{display:flex; align-items:center; gap:11px;}
-.brand img{height:54px; width:auto;}
+.brand{display:flex; align-items:center; gap:12px;}
+.brand img{height:62px; width:auto;}
+.brand span{font-family:var(--display); font-weight:700; font-size:18px; color:var(--navy); white-space:nowrap;}
+[dir="rtl"] .brand span{font-family:var(--script);}
 .main-nav{display:flex; gap:6px; align-items:center;}
 .main-nav a{
   font-family:var(--display);
