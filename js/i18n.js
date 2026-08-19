@@ -149,6 +149,7 @@ de: {
   "feedback.preview_hint": "So wird Ihr Feedback aussehen:",
   "feedback.preview_edit": "Bearbeiten", "feedback.preview_publish": "Veröffentlichen",
   "feedback.form_error": "Leider ist etwas schiefgelaufen. Bitte versuchen Sie es erneut.",
+  "feedback.form_error_blocklist": "Ihr Feedback konnte nicht veröffentlicht werden, da es möglicherweise unangemessene Inhalte enthält. Bitte überarbeiten Sie Ihren Text und versuchen Sie es erneut.",
   "feedback.form_success_title": "Danke!",
   "feedback.form_success": "Ihr Feedback wurde veröffentlicht und ist jetzt auf dieser Seite sichtbar.",
   "feedback.send_another": "Weiteres Feedback geben"
@@ -288,6 +289,7 @@ en: {
   "feedback.preview_hint": "This is how your feedback will look:",
   "feedback.preview_edit": "Edit", "feedback.preview_publish": "Publish",
   "feedback.form_error": "Something went wrong. Please try again.",
+  "feedback.form_error_blocklist": "Your feedback couldn't be published because it may contain inappropriate content. Please revise your text and try again.",
   "feedback.form_success_title": "Thank you!",
   "feedback.form_success": "Your feedback has been published and is now visible on this page.",
   "feedback.send_another": "Give more feedback"
@@ -427,6 +429,7 @@ tr: {
   "feedback.preview_hint": "Geri bildiriminiz şöyle görünecek:",
   "feedback.preview_edit": "Düzenle", "feedback.preview_publish": "Yayınla",
   "feedback.form_error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+  "feedback.form_error_blocklist": "Uygunsuz içerik barındırabileceği için geri bildiriminiz yayınlanamadı. Lütfen metninizi düzenleyip tekrar deneyin.",
   "feedback.form_success_title": "Teşekkürler!",
   "feedback.form_success": "Geri bildiriminiz yayınlandı ve şimdi bu sayfada görünüyor.",
   "feedback.send_another": "Başka bir geri bildirim gönder"
@@ -568,6 +571,7 @@ ar: {
   "feedback.preview_hint": "هكذا سيظهر رأيك:",
   "feedback.preview_edit": "تعديل", "feedback.preview_publish": "نشر",
   "feedback.form_error": "حدث خطأ ما. يُرجى المحاولة مجددًا.",
+  "feedback.form_error_blocklist": "تعذّر نشر رأيكم لأنه قد يحتوي على محتوى غير لائق. يُرجى تعديل النص والمحاولة مرة أخرى.",
   "feedback.form_success_title": "شكرًا لكم!",
   "feedback.form_success": "تم نشر رأيكم وهو الآن ظاهر في هذه الصفحة.",
   "feedback.send_another": "إرسال رأي آخر"
@@ -709,6 +713,7 @@ fa: {
   "feedback.preview_hint": "نظر شما این‌طور نمایش داده می‌شود:",
   "feedback.preview_edit": "ویرایش", "feedback.preview_publish": "انتشار",
   "feedback.form_error": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.",
+  "feedback.form_error_blocklist": "متأسفانه نظر شما به دلیل احتمال داشتن محتوای نامناسب منتشر نشد. لطفاً متن را ویرایش کرده و دوباره تلاش کنید.",
   "feedback.form_success_title": "سپاسگزاریم!",
   "feedback.form_success": "نظر شما منتشر شد و اکنون در این صفحه نمایش داده می‌شود.",
   "feedback.send_another": "ارسال نظر دیگر"

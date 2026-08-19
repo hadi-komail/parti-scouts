@@ -182,7 +182,13 @@
           publishBtn.textContent = originalLabel;
 
           if (result.error) {
-            if (errorMsg) errorMsg.classList.add("show");
+            if (errorMsg) {
+              var isBlocklist = result.error.message && result.error.message.indexOf("Submission blocked") !== -1;
+              var dict = currentDict();
+              var key = isBlocklist ? "feedback.form_error_blocklist" : "feedback.form_error";
+              if (dict[key]) errorMsg.textContent = dict[key];
+              errorMsg.classList.add("show");
+            }
             return;
           }
 
